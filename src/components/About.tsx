@@ -13,21 +13,21 @@ const About = () => {
   const team = [
     {
       name: 'Apurba Baishya',
-      role: 'CEO & Founder',
-      image: 'https://images.pexels.com/photos/3184296/pexels-photo-3184296.jpeg?auto=compress&cs=tinysrgb&w=400',
-      description: 'Tech enthusiast - Driving Innovation, Delivering Impact.'
+      role: 'CEO & co-Founder',
+      image: '',
+      description: 'Tech enthusiast. Passionate about building scalable solutions.'
+    },
+    {
+      name: 'Mridul Pritam',
+      role: 'CEO & co-Founder',
+      image: '',
+      description: 'Driving Innovation, Delivering Impact. '
     },
     {
       name: 'Shayan Dutta',
-      role: 'CTO & Tech Lead',
+      role: 'SDE-1',
       image: shayan,
       description: 'Creative and Critical thinker, expertise in building cross platform products.'
-    },
-    {
-      name: 'someone',
-      role: 'Software Engineer',
-      image: 'https://images.pexels.com/photos/3184317/pexels-photo-3184317.jpeg?auto=compress&cs=tinysrgb&w=400',
-      description: 'Expert in Cloud Operations with a passion for creating seamless mobile experiences.'
     }
   ];
 
