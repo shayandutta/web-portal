@@ -67,9 +67,6 @@ const Header = () => {
                 {item.name}
               </a>
             ))}
-            <button className="w-full mt-4 bg-gradient-to-r from-blue-600 to-teal-600 text-white py-2 rounded-full">
-              Get Started
-            </button>
           </div>
         )}
       </nav>
