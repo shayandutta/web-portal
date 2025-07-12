@@ -12,8 +12,8 @@ const About = () => {
 
   const team = [
     {
-      name: 'CEO sir',
-      role: 'CEO',
+      name: 'Apurba Baishya',
+      role: 'CEO & Founder',
       image: 'https://images.pexels.com/photos/3184296/pexels-photo-3184296.jpeg?auto=compress&cs=tinysrgb&w=400',
       description: 'Tech enthusiast - Driving Innovation, Delivering Impact.'
     },
