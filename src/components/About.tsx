@@ -1,31 +1,33 @@
 import React from 'react';
 import { Users, Award, Clock, Star } from 'lucide-react';
 import shayan from '../assets/team-picture/shayan.jpg'; // Adjust the path as necessary
+import mridul from '../assets/team-picture/mridul.jpeg';
+import apurba from '../assets/team-picture/apurba.jpeg';
 
 const About = () => {
   const stats = [
-    { icon: <Users size={32} />, number: '50+', label: 'Happy Clients' },
-    { icon: <Award size={32} />, number: '100+', label: 'Projects Completed' },
-    { icon: <Clock size={32} />, number: '5+', label: 'Years Experience' },
+    { icon: <Users size={32} />, number: '5', label: 'Happy Clients' },
+    { icon: <Award size={32} />, number: '10+', label: 'Projects Completed' },
+    { icon: <Clock size={32} />, number: '1', label: 'Years Experience' },
     { icon: <Star size={32} />, number: '4.9', label: 'Client Rating' }
   ];
 
   const team = [
     {
-      name: 'Apurba Baishya',
+      name: 'Apurba Kumar Baishya',
       role: 'CEO & co-Founder',
-      image: '',
-      description: 'Tech enthusiast. Passionate about building scalable solutions.'
+      image: apurba,
+      description: 'Empowering Digital Transformation with Integrity.'
     },
     {
-      name: 'Mridul Pritam',
+      name: 'Mridul Pritam Deka',
       role: 'CEO & co-Founder',
-      image: '',
+      image: mridul,
       description: 'Driving Innovation, Delivering Impact. '
     },
     {
       name: 'Shayan Dutta',
-      role: 'SDE-1',
+      role: 'SDE',
       image: shayan,
       description: 'Creative and Critical thinker, expertise in building cross platform products.'
     }
@@ -81,7 +83,7 @@ const About = () => {
           <div className="max-w-4xl mx-auto text-center">
             <h3 className="text-3xl font-bold text-gray-900 mb-6 text-gradient-animate">Our Story</h3>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Founded in 2025, TechFlow Solutions started as a small team with a big vision: 
+              Founded in 2025, MantraSoft started as a small team with a big vision: 
               to help businesses transform digitally and achieve their goals through innovative 
               technology solutions. Today, we've grown into a trusted partner for companies 
               of all sizes, delivering cutting-edge web and mobile applications that drive 

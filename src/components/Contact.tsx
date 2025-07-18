@@ -34,7 +34,7 @@ Message:
 ${formData.message}
     `;
     
-    const mailtoLink = `mailto:shayandutta23@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const mailtoLink = `mailto:info@mantrasoft.co.in?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     window.location.href = mailtoLink;
   };
 
@@ -67,7 +67,7 @@ ${formData.message}
                 </div>
                 <div>
                   <p className="font-semibold text-gray-900">Email</p>
-                  <p className="text-gray-600">shayandutta23@gmail.com</p>
+                  <p className="text-gray-600">info@mantrasoft.co.in</p>
                 </div>
               </div>
 
